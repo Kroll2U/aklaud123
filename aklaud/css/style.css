@@ -1,0 +1,168 @@
+*{margin: auto;
+padding: auto;
+font-family: helvetica;
+
+}
+
+
+header{
+background-color: gray;
+}
+header ul{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 9px;
+    overflow: hidden;
+    height: auto;
+    
+}
+nav {
+    padding-top: 2rem;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+main ul{
+    color: blue;
+}
+ul span{
+    color: rgb(0, 0, 0);
+}
+
+.napisaklaud{
+    float: left;
+}
+#ikona{
+    float: right;
+    margin: right 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+header li {
+       margin: right 5px;
+padding-left: 10px;
+padding-right: 15px;}
+
+footer{
+position: absolute;
+		bottom:0;
+		width:100%;
+		background:#cfd3d0;
+        height: 5%;
+        font-size: 0.8rem;
+        text-align: center;
+        display: flex;
+
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+
+h1{padding-top: 1.5rem;
+padding-bottom: 1rem;}
+
+nav{
+    padding-top: 1rem;
+    width: 90%;
+    margin-right: 5%;
+    border-bottom: solid 1px;
+}
+.cena{padding-bottom: 2.5rem;}
+.zawiera{padding-bottom: 1rem;}
+.premium{padding-top: 1rem;
+padding-bottom: 0.5rem;}
+
+.cena, .premium, .apki{
+    color: grey;
+}
+.apki{
+    padding-top: 1rem;
+padding-bottom: 0.5rem;
+}
+.funkcje{
+    padding-top: 1rem;
+}
+aside{
+    background-color: white;
+}
+.zmiana{
+    background-color: rgb(211, 208, 208);
+    width: 30rem;
+    height: auto;
+    border-radius: 8px;
+}
+.zmiana h4{
+    padding: 15px 8px 10px;
+
+}
+.zmiana p {
+    padding: 8px;
+}
+.zmiana a{
+    padding-bottom: 12px;
+}
+.kontener {
+    width: 90%;
+    margin-right: 5%;
+    height: 90%;
+    display: flex;
+    padding-top: 4rem;
+}
+.cz2 {
+
+    width: 45%;
+}
+.cz1{
+    border-right: solid 1px lightgrey;
+width: 45%;
+}
+.pakiecik{
+    background-color: rgb(211, 208, 208);
+    width: 30rem;
+    padding-top: 1rem;
+    border-radius: 8px;
+    text-align: left;
+
+}
+.pakiecik > p {
+    padding: 1px 10px 13px;
+}
+.olop{
+    display: flex;
+    padding-top: 16rem;
+
+    width: 83%;
+}
+
+section{
+    padding-top: 10rem;
+}
+ nav li:hover{
+    border-bottom: black solid 2px;
+ }
+ footer span {
+    padding-right: 5px;
+    padding-left: 3px;
+ }
+ footer span:first-child{
+    border-right: solid rgb(109, 106, 106) 1px;
+ }
+ footer span:nth-child(2){
+    border-right: solid rgb(109, 106, 106) 1px;
+ }
+
+
+
+a {
+    text-decoration: none;
+    
+}
